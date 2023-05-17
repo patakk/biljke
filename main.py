@@ -22,7 +22,7 @@ CONNECTION = create_connection('biljke.db')
 CURSOR = CONNECTION.cursor()
 
 CURRENT_USER_ID = None
-CURRENT_USER_DATA = None
+CURRENT_USER_DATA = {}
 
 
 def update_current_user_data():
